@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.content-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.content-para {
+  color: white;
+  font-size: 20px;
+  font-weight: light;
+  margin: 0;
+}
+
+.heading {
+  font-size: 60px;
+  color: #86dc3d;
+  font-weight: 900;
+  margin: 2% 10%;
+}
+
+.img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.menu {
+  background-color: #86dc3d;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  padding: 2%;
+}
+
+.menu-content-1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0 5%;
+}
+
+.menu-content-2 {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+  margin: 0 5%;
+}
+
+.top-container {
+  text-align: center;
+  font-weight: 1000;
+  margin: 5% 10%;
+}
+
+.box {
+  background-color: #26580f;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5%;
+  width: 25%;
+}
+
+.middle-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2% 10%;
+}
+.bottom-container {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2% 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  /* when on mobile */
+  [class*="box"] {
+    width: 100%;
+  }
+
+  
+}
